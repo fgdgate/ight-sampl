@@ -500,14 +500,44 @@
 /****************************************
 *ABOUT ブロック
 *****************************************/
+.about__items {
+  max-width: 900px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  margin: 0 auto;
+}
 .about__content {
   display: flex;
-  align-items: center;
+  flex-wrap: wrap;
   justify-content: center;
+  align-items: center;
 }
 
-.about__text h3 {
-  font-size: 3em;
+.about__box {
+  width: 50%;
+  margin-right: 30px;
+}
+.about__content h3 {
+  font-size: 1.8em;
+  border-bottom: 1px #c9cccd solid;
+  padding-bottom: 26px;
+  margin-bottom: 26px;
+}
+
+.about__content p {
+  font-size: 1.5em;
+  margin-bottom: 40px;
+  line-height: 1.5;
+}
+
+.about__content img {
+  width: 420px;
+  height: auto;
+  justify-content: center;
+  vertical-align: middle;
+  
 }
 
 
