@@ -1,3 +1,3 @@
 <?php
-include_once('ight.html');
+include_once('index.html');
 ?>
